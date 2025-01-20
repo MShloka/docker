@@ -1,4 +1,4 @@
 FROM python:3.12.4
 WORKDIR /new
-COPY sample.py .
+COPY . .
 CMD ["python","sample.py"]
